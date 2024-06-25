@@ -1,0 +1,71 @@
+﻿<Window x:Class="EmployeeDocumentManagementApp.SalaryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Заплата" Height="450" Width="660">
+    <Grid>
+        <TabControl>
+            <TabItem Header="2023">
+                <ListView ItemsSource="{Binding SalaryHistory}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Януари" DisplayMemberBinding="{Binding January}" Width="Auto"/>
+                            <GridViewColumn Header="Февруари" DisplayMemberBinding="{Binding February}" Width="Auto"/>
+                            <GridViewColumn Header="Март" DisplayMemberBinding="{Binding March}" Width="Auto"/>
+                            <GridViewColumn Header="Април" DisplayMemberBinding="{Binding April}" Width="Auto"/>
+                            <GridViewColumn Header="Май" DisplayMemberBinding="{Binding May}" Width="Auto"/>
+                            <GridViewColumn Header="Юни" DisplayMemberBinding="{Binding June}" Width="Auto"/>
+                            <GridViewColumn Header="Юли" DisplayMemberBinding="{Binding July}" Width="Auto"/>
+                            <GridViewColumn Header="Август" DisplayMemberBinding="{Binding August}" Width="Auto"/>
+                            <GridViewColumn Header="Септември" DisplayMemberBinding="{Binding September}" Width="Auto"/>
+                            <GridViewColumn Header="Октомври" DisplayMemberBinding="{Binding October}" Width="Auto"/>
+                            <GridViewColumn Header="Ноември" DisplayMemberBinding="{Binding November}" Width="Auto"/>
+                            <GridViewColumn Header="Декември" DisplayMemberBinding="{Binding December}" Width="Auto"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+
+            <TabItem Header="2024">
+                <ListView ItemsSource="{Binding SalaryHistory}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Януари" DisplayMemberBinding="{Binding January}" Width="Auto"/>
+                            <GridViewColumn Header="Февруари" DisplayMemberBinding="{Binding February}" Width="Auto"/>
+                            <GridViewColumn Header="Март" DisplayMemberBinding="{Binding March}" Width="Auto"/>
+                            <GridViewColumn Header="Април" DisplayMemberBinding="{Binding April}" Width="Auto"/>
+                            <GridViewColumn Header="Май" DisplayMemberBinding="{Binding May}" Width="Auto"/>
+                            <GridViewColumn Header="Юни" DisplayMemberBinding="{Binding June}" Width="Auto"/>
+                            <GridViewColumn Header="Юли" DisplayMemberBinding="{Binding July}" Width="Auto"/>
+                            <GridViewColumn Header="Август" DisplayMemberBinding="{Binding August}" Width="Auto"/>
+                            <GridViewColumn Header="Септември" DisplayMemberBinding="{Binding September}" Width="Auto"/>
+                            <GridViewColumn Header="Октомври" DisplayMemberBinding="{Binding October}" Width="Auto"/>
+                            <GridViewColumn Header="Ноември" DisplayMemberBinding="{Binding November}" Width="Auto"/>
+                            <GridViewColumn Header="Декември" DisplayMemberBinding="{Binding December}" Width="Auto"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+
+            <TabItem Header="2025">
+                <ListView ItemsSource="{Binding SalaryHistory}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Януари" DisplayMemberBinding="{Binding January}" Width="Auto"/>
+                            <GridViewColumn Header="Февруари" DisplayMemberBinding="{Binding February}" Width="Auto"/>
+                            <GridViewColumn Header="Март" DisplayMemberBinding="{Binding March}" Width="Auto"/>
+                            <GridViewColumn Header="Април" DisplayMemberBinding="{Binding April}" Width="Auto"/>
+                            <GridViewColumn Header="Май" DisplayMemberBinding="{Binding May}" Width="Auto"/>
+                            <GridViewColumn Header="Юни" DisplayMemberBinding="{Binding June}" Width="Auto"/>
+                            <GridViewColumn Header="Юли" DisplayMemberBinding="{Binding July}" Width="Auto"/>
+                            <GridViewColumn Header="Август" DisplayMemberBinding="{Binding August}" Width="Auto"/>
+                            <GridViewColumn Header="Септември" DisplayMemberBinding="{Binding September}" Width="Auto"/>
+                            <GridViewColumn Header="Октомври" DisplayMemberBinding="{Binding October}" Width="Auto"/>
+                            <GridViewColumn Header="Ноември" DisplayMemberBinding="{Binding November}" Width="Auto"/>
+                            <GridViewColumn Header="Декември" DisplayMemberBinding="{Binding December}" Width="Auto"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
